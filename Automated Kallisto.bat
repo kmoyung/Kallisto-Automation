@@ -6,7 +6,7 @@ type NUL > output.txt
 setlocal enabledelayedexpansion
 
 set "index=MusGRCm38.idx"
-set "input=FirstTest.txt"
+set "input=Reads.txt"
 
 @echo Index selected is !index!. Continue?
 @echo.
@@ -19,7 +19,7 @@ for /f "tokens=* delims=" %%x in (!input!) do @echo %%x
 @echo Continue?
 pause
 
-for /f "tokens=* delims=" %%x in (FirstTest.txt) do (
+for /f "tokens=* delims=" %%x in (Reads.txt) do (
 	set "output=%%x"
 	set "output=!output:~0,-9!"
 	for %%F in (!output!) do (
