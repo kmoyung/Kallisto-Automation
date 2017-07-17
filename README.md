@@ -1,4 +1,4 @@
-# Kallisto Script
+# Kallisto Automation
 
 *This batch script automates the quantification of abundances of transcripts of RNA-seq data. Kallisto is a program created by the [Pachter Lab](https://pachterlab.github.io/kallisto/).*
 
